@@ -1,4 +1,4 @@
-# 🦁 FURIAbot – Chatbot Interativo para Fãs de CS:GO
+#  FURIAbot – Chatbot Interativo para Fãs de CS:GO
 
 Projeto desenvolvido para simular uma experiência conversacional para fãs do time de CS:GO FURIA Esports. Com integração de IA (OpenAI).
 ## 🚀 Funcionalidades
@@ -39,13 +39,6 @@ npm install
  Frontend
 cd ../client
 npm install
-````
-
-### 3.Configure a chave da IA
-
-```bash
-No arquivo .env dentro de /server, coloque:
-OPENAI_API_KEY=sua-chave-aqui
 ````
 
 ### 4.Rode o servidor e client
