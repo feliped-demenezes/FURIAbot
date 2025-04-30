@@ -51,11 +51,11 @@ OPENAI_API_KEY=sua-chave-aqui
 ### 4.Rode o servidor e client
 
 ```bash
-# Terminal 1 - Backend
+ Terminal 1 - Backend
 cd server
 npm run dev
 
-# Terminal 2 - Frontend
+ Terminal 2 - Frontend
 cd client
 npm run dev
 ````
