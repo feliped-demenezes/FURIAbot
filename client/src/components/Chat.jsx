@@ -16,7 +16,7 @@ function Chat() {
     setInput('');
 
     try {
-      const response = await axios.post("http://localhost:3001/chat", {
+      const response = await axios.post("https://furia-mauve.vercel.app/", {
         message: input
       });
       setMessages(prev => [...prev, { text: response.data.reply, sender: "bot" }]);
