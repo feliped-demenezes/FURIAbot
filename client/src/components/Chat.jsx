@@ -16,7 +16,7 @@ function Chat() {
     setInput('');
 
     try {
-      const response = await axios.post("https://backfuria-81j4.onrender.com/chat", {
+      const response = await axios.post("http://localhost:3001/chat", {
         message: input
       });
       setMessages(prev => [...prev, { text: response.data.reply, sender: "bot" }]);
