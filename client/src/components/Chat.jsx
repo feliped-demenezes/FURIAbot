@@ -16,7 +16,7 @@ function Chat() {
     setInput('');
 
     try {
-      const response = await axios.post("https://furiabot-0kdp.onrender.com/chat", {
+      const response = await axios.post("https://backfuria-81j4.onrender.com/chat", {
         message: input
       });
       setMessages(prev => [...prev, { text: response.data.reply, sender: "bot" }]);
