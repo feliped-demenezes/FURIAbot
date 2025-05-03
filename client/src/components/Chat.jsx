@@ -16,7 +16,7 @@ function Chat() {
     setInput('');
 
     try {
-      const response = await axios.post("https://furia-mauve.vercel.app/", {
+      const response = await axios.post("https://furiabot-0kdp.onrender.com/chat", {
         message: input
       });
       setMessages(prev => [...prev, { text: response.data.reply, sender: "bot" }]);
